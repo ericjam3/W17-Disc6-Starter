@@ -1,0 +1,21 @@
+body {
+	padding-left: 50px;
+	padding-right: 50px
+}
+
+#messages {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 50vh;
+	overflow-y: scroll;
+}
+
+.message {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+}
+
+.username {
+	font-weight: bold;
+}
