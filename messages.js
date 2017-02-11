@@ -4,13 +4,19 @@ module.exports = {
 }
 
 function Message(username, content) {
-	// YOUR CODE HERE
+	this.username = username;
+	this.content = content;
 }
 
 function messageDb() {
-	// YOUR CODE HERE
+	var messages = [];
 
 	return {
-		// YOUR CODE HERE
+		addMessage: function(message){
+			messages.push(message);
+		},
+		getMessages: function(){
+			return messages;
+		}
 	}
 }
